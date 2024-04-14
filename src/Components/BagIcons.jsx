@@ -1,30 +1,18 @@
-import { useEffect, useState } from "react";
-import { BAG_ICONS_API } from "../Services/APIs";
+
 // import { BAG_ICONS_MOCK_API } from "../Constants/BAG_ICONS_MOCK_API";
-import axios from "axios"
+import useGetBagIcons from "../Hooks/useGetBagIcons";
 
 const BagIcons = () => {
-    const [iconsList, setIconsList] = useState([]);
-
-
-    // Methods 
-    const getIconsData = async () => {
-        const url = BAG_ICONS_API;
-        const data = await axios.get(url)
-        // console.log(data.data)
-        setIconsList(data.data)
-    }
-
-    useEffect(() => {
-        getIconsData()
-    }, [])
+    const iconsList = useGetBagIcons();
 
     return (
-        <ul className="flex justify-around">
-            {iconsList && iconsList.map((each) => <li key={each.id}>
-                <img src={each.image} alt={each.title} />
-                <p className="mt-2 text-center text-white">{each.title}</p>
-            </li>)}
+        <ul className="flex justify-around m-3">
+            {iconsList && iconsList.map((each) =>
+                <li key={each.id} className="flex flex-col items-center p-2 m-2 border-white hover:rounded-lg hover:border hover:cursor-pointer size-24 md:size-full ">
+                    <img src={each.image} alt={each.title} />
+                    <p className="mt-2 text-white">{each.title}</p>
+                </li>)
+            }
 
         </ul>
     )
