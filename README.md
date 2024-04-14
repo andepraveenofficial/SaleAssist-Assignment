@@ -2,11 +2,9 @@
 
 ### Tech Stack
 1. UI Layer : React
-2. Data Layer : Redux Toolkit
-3. Routing : react-router-dom
-4. Styling: tailwindcss
-5. Bundler : React + Vite
-6. Icons : react-icons
+2. Styling: tailwindcss
+3. Bundler : React + Vite
+4. Icons : react-icons
 
 ### Third Party Packages
 1. tailwindcss
