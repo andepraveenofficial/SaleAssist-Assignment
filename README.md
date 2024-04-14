@@ -6,7 +6,8 @@
 * Icons : `react-icons
 `
 ## Hosting
-Live : `https://sale-assist-praveen.vercel.app/`
+Netlify : `https://sale-assist-praveen.netlify.app/`
+Versal : `https://sale-assist-praveen.vercel.app/`
 
 ## Discussion
 
