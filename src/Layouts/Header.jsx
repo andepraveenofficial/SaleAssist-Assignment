@@ -8,7 +8,7 @@ const NAV_ITEMS = [{ id: 1, item: "Bags" }, { id: 2, item: "Travel" }, { id: 3, 
 const Header = () => {
     return (
         <header className="flex justify-around p-2 text-white bg-gray-900 min-h-14">
-            <h1 className="text-3xl">TANN TRIM</h1>
+            <h1 className="text-xl md:text-3xl ">TANN TRIM</h1>
             <nav className="self-end align-bottom">
                 <ul className="hidden gap-4 text-xl md:flex">
                     {NAV_ITEMS.map((each) => <li key={each.id} className="p-2 hover:bg-slate-500 hover:rounded-lg hover:cursor-pointer">{each.item}</li>)}
