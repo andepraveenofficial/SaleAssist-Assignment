@@ -3,7 +3,7 @@ import { BiRupee } from "react-icons/bi";
 
 const Card = (props) => {
     const { cardDetails } = props
-    const { image, title, price } = cardDetails
+    const { image, title, price, currentPrice, discount } = cardDetails
 
     return (
         <div className="m-4 text-white rounded-lg hover:scale-105 hover:cursor-pointer hover:shadow-lg bg-slate-800 hover:shadow-stone-700">
@@ -12,10 +12,10 @@ const Card = (props) => {
             <div className="flex justify-between p-2">
                 <div className="flex items-center">
                     <BiRupee />
-                    <h1 className="text-2xl">{price}</h1>
+                    <h1 className="text-2xl">{currentPrice}</h1>
                     <div className="ml-3">
-                        <span className="line-through">8999</span>
-                        <span className="text-green-300">(50% off)</span>
+                        <span className="line-through">{price}</span>
+                        <span className="text-green-300">({discount} off)</span>
                     </div>
                 </div>
                 <HiOutlineShoppingBag className="size-8" />

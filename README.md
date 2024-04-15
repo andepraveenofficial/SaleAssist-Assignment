@@ -11,10 +11,16 @@
 2. axios
 3. react-icons
 
+
+### Local Server 
+`npm install`
+`npm run dev`
+
 ### Hoisting
 Netlify : `https://sale-assist-praveen.netlify.app/`
 Versal : `https://sale-assist-praveen.vercel.app/`
 
+Github : `https://github.com/andepraveenofficial/SaleAssist-Assignment.git`
 
 ### Folder Structure
 * src

@@ -1,2 +1,2 @@
-export const BAG_ICONS_API = "https://412e939c-1555-4ecd-a812-dacb06002aa4.mock.pstmn.io/bag-icons";
-export const BAG_IMAGES_API = "https://412e939c-1555-4ecd-a812-dacb06002aa4.mock.pstmn.io/bag-images";
+export const BAG_ICONS_API = "https://c8fd5d56-2228-43ef-972d-0e613dfd624e.mock.pstmn.io/bag-icons";
+export const BAG_IMAGES_API = "https://c8fd5d56-2228-43ef-972d-0e613dfd624e.mock.pstmn.io/bag-images";
