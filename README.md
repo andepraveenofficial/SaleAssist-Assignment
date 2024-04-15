@@ -41,9 +41,6 @@ Github : https://github.com/andepraveenofficial/SaleAssist-Assignment.git
       - useGetBagIcons.jsx
       - useBagImages.jsx  
 
-
-### Features
-
 ### Industry Standards 
 * Don't write above 100 lines.
 
