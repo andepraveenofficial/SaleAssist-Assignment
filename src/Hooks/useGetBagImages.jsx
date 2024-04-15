@@ -3,7 +3,7 @@ import { BAG_IMAGES_API } from '../Services/APIs';
 import axios from 'axios';
 
 const useGetBagImages = () => {
-    const [imagesList, setImagesList] = useState([]);
+    const [imagesList, setImagesList] = useState(null);
 
     // Methods 
     const getImagesData = async () => {
