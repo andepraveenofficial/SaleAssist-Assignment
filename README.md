@@ -17,10 +17,10 @@
 `npm run dev`
 
 ### Hoisting
-Netlify : `https://sale-assist-praveen.netlify.app/`
-Versal : `https://sale-assist-praveen.vercel.app/`
+Netlify : https://sale-assist-praveen.netlify.app/  
+Versal : https://sale-assist-praveen.vercel.app/  
 
-Github : `https://github.com/andepraveenofficial/SaleAssist-Assignment.git`
+Github : https://github.com/andepraveenofficial/SaleAssist-Assignment.git
 
 ### Folder Structure
 * src
@@ -37,6 +37,9 @@ Github : `https://github.com/andepraveenofficial/SaleAssist-Assignment.git`
    * Constants 
       - BAG_ICONS_MOCK_API.js
       - BAG_IMAGES_MOCK_API.js
+   * Hooks 
+      - useGetBagIcons.jsx
+      - useBagImages.jsx  
 
 
 ### Features
