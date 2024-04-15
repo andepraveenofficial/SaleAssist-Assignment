@@ -3,7 +3,7 @@ import { BAG_ICONS_API } from '../Services/APIs';
 import axios from 'axios';
 
 const useGetBagIcons = () => {
-    const [iconsList, setIconsList] = useState([]);
+    const [iconsList, setIconsList] = useState(null);
 
 
     // Methods 
